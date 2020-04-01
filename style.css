@@ -30,37 +30,30 @@ table{
 
 
 
-.card {margin: 30px;
-    padding: 20px ;
-    background: rgb(0, 0, 0); 
-}
+
+
+  
 
 .card-header {
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     color: rgb(247, 97, 92);
     font-weight: bold;
+    
 
 }
 
 .card-text {
 
-    font-size: 100px;
+    font-size: 40px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
 
 }
 
-#grupo1, #grupo2, #grupo3{
-  
-    padding: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -100px;
-    
-  }
-  
-
- h2 {
+h2 {
      color: whitesmoke;
      padding: 50px;
      text-align: center;
@@ -73,4 +66,4 @@ table{
      height: 3px;
      margin-top: -30px;
  }
-    
+
