@@ -31,9 +31,6 @@ table{
 
 
 
-
-  
-
 .card-header {
     font-size: 15px;
     text-align: center;
@@ -67,3 +64,40 @@ h2 {
      margin-top: -30px;
  }
 
+.circular-progress {
+    width: 12rem;
+    height: 12rem;
+    border-radius:50% ;
+    margin: auto;
+    /*hacer un degradado*/
+    background: linear-gradient(
+        0deg,
+        #fff,
+        rgba(#fff,.2) 50%
+    );
+    position: relative;
+    before {
+        content:"LEFT FOOTED GOALS";
+        width: 12rem;
+        height: 12rem; 
+        position: absolute;
+        top:0;
+        Left:0;
+        background: #111 content-box; 
+        border-radius:50%;
+        padding:.5em;
+        box-sizing: border-box;
+        font-size:2rem;
+        color: #fff;
+        text-align: center;
+        line-height: 8rem;
+    }
+    &:after {
+       content: "86%";
+       width: 12rem;
+       height: 12rem; 
+       position: absolute;
+       top:0;
+       Left:0;
+    }
+}
