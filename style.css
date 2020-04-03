@@ -4,6 +4,18 @@ h1 {
     margin-top: 50px;
    
 }
+
+h4{
+    text-align: left;
+    vertical-align: middle;
+    font-size: 50px;
+
+
+}
+
+h5{
+    text-align: justify;
+}
 p {
     text-align: left;
     margin-top: 20px;
@@ -16,7 +28,12 @@ img.imgcenter{
     border:none;
 }
 
-
+#Messi {
+    width: 550px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
 
 .card {
     height: 15rem;
@@ -76,10 +93,4 @@ hr {  display: flex;
     border-right:25px solid transparent; /* derecha flecha */
     border-top:25px solid rgb(216, 66, 61); /* base flecha y color*/
     font-size:0px;
-}
-
-#carouselExampleIndicators {
-    
-    width: 0 auto;
-    height: 300px;
 }
