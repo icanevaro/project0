@@ -1,26 +1,22 @@
 
 h1 {
-    text-align: left;
+    text-align: auto;
     margin-top: 50px;
    
 }
-
-h4{
-    text-align: left;
-    vertical-align: middle;
-    font-size: 50px;
-
+.media {
+    margin-left: 25px;
 
 }
 
-h5{
-    text-align: justify;
-}
+
 p {
     text-align: left;
     margin-top: 20px;
+    font-size: 20px;
    
 }
+    
 img.imgcenter{
     display: block;
     margin-left: auto;
