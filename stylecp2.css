@@ -1,0 +1,72 @@
+.circular-progress {
+  position: relative;
+  margin: auto;
+  max-width: auto;
+   }
+  .circular-progress, .circular-progress:before, .circular-progress:after {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%; }
+  .circular-progress:before, .circular-progress:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center; }
+  .circular-progress:before {
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 1.7rem;
+    line-height: 3.2rem; }
+  .circular-progress:after {
+    line-height: 13rem; }
+
+/*crea una funcion y la llama progress, con la variable porcentaje*/
+.LFG {
+  transform: rotate(154.8deg);
+  /*hacer un degradado*/
+  background: linear-gradient(0deg, #fa2e2e 50%, rgba(250, 46, 46, 0.2) 50%); }
+  .LFG:before, .LFG:after {
+    color: #fa2e2e; }
+  .LFG:before {
+    content: "86%";
+    background: #343a40 content-box;
+    transform: rotate(-154.8deg);
+    text-transform: uppercase; }
+  .LFG::after {
+    content: "";
+    background: linear-gradient(transparent 50%, #343a40 50%);
+    transform: scale(1.1) rotate(-154.8deg); }
+
+.RFG {
+  transform: rotate(23.4deg);
+  /*hacer un degradado*/
+  background: linear-gradient(0deg, #fa2e2e 50%, rgba(250, 46, 46, 0.2) 50%); }
+  .RFG:before, .RFG:after {
+    color: #fa2e2e; }
+  .RFG:before {
+    content: "13%";
+    background: #343a40 content-box;
+    transform: rotate(-23.4deg);
+    text-transform: uppercase; }
+  .RFG::after {
+    content: "";
+    background: linear-gradient(transparent 50%, #343a40 50%);
+    transform: scale(1.1) rotate(-23.4deg); }
+
+.MP {
+  transform: rotate(39.6deg);
+  /*hacer un degradado*/
+  background: linear-gradient(0deg, #fa2e2e 50%, rgba(250, 46, 46, 0.2) 50%); }
+  .MP:before, .MP:after {
+    color: #fa2e2e; }
+  .MP:before {
+    content: "22%";
+    background: #343a40 content-box;
+    transform: rotate(-39.6deg);
+    text-transform: uppercase; }
+  .MP::after {
+    content: "";
+    background: linear-gradient(transparent 50%, #343a40 50%);
+    transform: scale(1.1) rotate(-39.6deg); }
+
+/*# sourceMappingURL=stylecp2.css.map */

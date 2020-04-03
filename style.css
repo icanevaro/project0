@@ -14,29 +14,21 @@ img.imgcenter{
     margin-left: auto;
     margin-right: auto;
     border:none;
-    }
-
-#titulotabla1   { 
-    text-align: left;
-    padding-left: 20px; 
-
-}
-table{
-    background: url("Messi8.jpg") top center;
-    margin-top: 5px;
-    border-collapse: collapse;
-    height:500px;
 }
 
 
 
+.card {
+    height: 15rem;
+    width: 15rem;
+    
+}
 
 .card-header {
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     color: rgb(247, 97, 92);
     font-weight: bold;
-    
 
 }
 
@@ -44,9 +36,6 @@ table{
 
     font-size: 40px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
 
 }
 
@@ -56,48 +45,41 @@ h2 {
      text-align: center;
  }
 
- hr{ display: flex;
+hr {  display: flex;
     flex-wrap: wrap;
      background-color: rgb(247, 97, 92);
      width: 100px;
      height: 3px;
-     margin-top: -30px;
+     margin-top: -40px;
  }
 
-.circular-progress {
-    width: 12rem;
-    height: 12rem;
-    border-radius:50% ;
-    margin: auto;
-    /*hacer un degradado*/
-    background: linear-gradient(
-        0deg,
-        #fff,
-        rgba(#fff,.2) 50%
-    );
-    position: relative;
-    before {
-        content:"LEFT FOOTED GOALS";
-        width: 12rem;
-        height: 12rem; 
-        position: absolute;
-        top:0;
-        Left:0;
-        background: #111 content-box; 
-        border-radius:50%;
-        padding:.5em;
-        box-sizing: border-box;
-        font-size:2rem;
-        color: #fff;
-        text-align: center;
-        line-height: 8rem;
-    }
-    &:after {
-       content: "86%";
-       width: 12rem;
-       height: 12rem; 
-       position: absolute;
-       top:0;
-       Left:0;
-    }
+ .card-body {
+
+    align-content: center;
+    align-items: center;
+
+}
+
+#Fondostats {
+
+    background:rgb(216, 66, 61) ;
+    height: 30rem;
+    width: 100%;
+    
+}
+
+.flecha-down {
+    margin:0 auto;
+    width:0px;
+    height:0px;
+    border-left:25px solid transparent; /* izquierda flecha */
+    border-right:25px solid transparent; /* derecha flecha */
+    border-top:25px solid rgb(216, 66, 61); /* base flecha y color*/
+    font-size:0px;
+}
+
+#carouselExampleIndicators {
+    
+    width: 0 auto;
+    height: 300px;
 }

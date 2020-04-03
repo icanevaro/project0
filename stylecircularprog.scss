@@ -1,0 +1,75 @@
+.circular-progress {
+    &,
+    &:before,
+    &:after {
+        width: 10rem;
+        height: 10rem;
+        border-radius:50% ;
+    }
+    position: relative;
+    margin: auto;
+    &:before,
+    &:after {
+        position: absolute;
+        top:0;
+        left:0;
+        text-align: center;
+    }
+    &:before {  
+        padding:.5em;
+        box-sizing: border-box;
+        font-size:2rem;
+        line-height: 6rem;
+    }
+    &:after {
+       line-height: 13rem;
+    }
+}
+/*crea una funcion y la llama progress, con la variable porcentaje*/
+@function progress($porcentaje) {
+    $deg: $porcentaje/100 * 180;
+    /*retorno el valor de la variable deg+deg porque lo necesito asi en la formula donde voy a meter el porcentaje; que me devuelva 36deg por ejemplo*/
+    @return #{$deg}deg;
+
+}
+
+@mixin circular-progress($porcentaje,$skill,$color,$bgcolor) {
+    $progress: progress($porcentaje);
+    transform: rotate($progress);
+       /*hacer un degradado*/
+    background: linear-gradient(
+    0deg,
+    $color 50%,
+    rgba($color,.2) 50%
+    );
+    &:before,
+    &:after {
+        color: $color;
+    }
+    &:before {
+        content: "#{$skill}";
+        background: $bgcolor content-box;
+        transform: rotate(-#{$progress});
+        text-transform: uppercase;
+    }
+    &::after {
+        content: "#{$porcentaje}%";
+        background: linear-gradient(
+        transparent 50%,
+        $bgcolor 50%,
+       );
+       transform: scale(1.1) rotate(-#{$progress});
+    }
+}
+
+.LFG {
+    @include circular-progress(86,"86%",rgb(250, 46, 46),#343a40)
+}
+
+.RFG {
+    @include circular-progress(13,"13%",rgb(250, 46, 46),#343a40)
+}
+
+.MP {
+    @include circular-progress(22,"22%",rgb(250, 46, 46),#343a40)
+}
