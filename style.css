@@ -1,17 +1,18 @@
+/*INDEX.HTML*/
 
+/*1er TEXTO*/
 h1 {
     text-align: auto;
     margin-top: 50px;
    
 }
-.media {
-    margin-left: 25px;
-
-}
 
 #textoinicio   {
-
-    margin-left: 5px;
+   width: 100%;
+   height: 450px;
+   margin-right: auto;
+   margin-left: 50px;
+   width: 1200px;
 }
 
 p {
@@ -21,24 +22,48 @@ p {
    
 }
 
-.textoderecha {
-    text-align: right ;
-    padding-right: -50px;
-    padding-left: 15px;
-    margin-right: 50px;
+.fototexto1 {
+    border: 1px solid #dee2e6 !important;
+}
+
+/*CARD INDEX 2do texto*/
+.cardindex {
+    width: 50rem;
+    background-color:rgba(216, 61, 66, 0.116) ;
+    flex-wrap: wrap;
+    display: flex;
     margin-left: auto;
-    max-width: 1200px;
-    padding-top: 25px;
+    margin-right: auto;
+    border: none;
 }
-.rectangulo {
-   width: 100%;
-   height: 600px;
-   background-color:rgb(216, 61, 66, 0.781) ;
-   margin-right: auto;
-   margin-left: auto;
+
+.bodyindex {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 15%;
+    width: 1200px;
+}
+
+.cardfoto {
+    position: relative;
+    width: 100%;
+    flex: 0 0 33.33%;
+    max-width: 100%;
+    
+}
+.textindex {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/* 3er TEXTO*/
+.fototexto3 {
+    border: 1px solid #dee2e6 !important;
 }
 
 
+/*CENTRADO LOGO MESSI*/
 img.imgcenter{
     display: block;
     margin-left: auto;
@@ -46,40 +71,80 @@ img.imgcenter{
     border:none;
 }
 
-#Messi {
+/*------------------------------------------------------------------------------------------------------------/*
+/*STATS.HTML*/
+
+/*FONDO PAGINA*/
+#Fondostats {
+
+    background:rgb(216, 66, 61) ;
+    height: 30rem;
+    width: 100%;
+    
+}
+
+/*FOTO FONDO ROJO*/
+#adidasfondo {
     width: 550px;
     height: auto;
     display: block;
     margin: auto;
 }
 
-.card {
+
+/*TEXTO MESSI FONDO ROJO*/
+#messifondo {
+    color: black;
+    font-style: normal;
+    text-align: center;
+    margin-top: -20px;
+}
+
+/*CARDS*/
+.cstatsivan {
     height: 15rem;
-    width: 15rem;
+    width: 30rem;
+
     
 }
 
-.card-header {
+.cheaderivan {
     font-size: 14px;
     text-align: center;
     color: rgb(247, 97, 92);
     font-weight: bold;
-
+    background-color: black;
+    border-bottom: solid rgba(43, 37, 37, 0.452) ;
+    
 }
 
-.card-text {
+.ctextivan {
 
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
-
+    background-color: black;
+    margin-top: 30px;
+    
 }
 
+.cbodyivan {
+
+    align-content: center;
+    align-items: center;
+    background-color: black;
+    
+    
+}
+
+
+/*TITULOS*/
 h2 {
      color: whitesmoke;
      padding: 50px;
      text-align: center;
  }
 
+/*LINEAS ROJAS*/
 hr {  display: flex;
     flex-wrap: wrap;
      background-color: rgb(247, 97, 92);
@@ -88,20 +153,7 @@ hr {  display: flex;
      margin-top: -40px;
  }
 
- .card-body {
 
-    align-content: center;
-    align-items: center;
-
-}
-
-#Fondostats {
-
-    background:rgb(216, 66, 61) ;
-    height: 30rem;
-    width: 100%;
-    
-}
 
 .flecha-down {
     margin:0 auto;
@@ -112,3 +164,4 @@ hr {  display: flex;
     border-top:25px solid rgb(216, 66, 61); /* base flecha y color*/
     font-size:0px;
 }
+

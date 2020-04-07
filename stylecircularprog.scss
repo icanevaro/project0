@@ -63,13 +63,13 @@
 }
 
 .LFG {
-    @include circular-progress(86,"86%",rgb(250, 46, 46),#343a40)
+    @include circular-progress(86,"86%",rgb(250, 46, 46),black)
 }
 
 .RFG {
-    @include circular-progress(13,"13%",rgb(250, 46, 46),#343a40)
+    @include circular-progress(13,"13%",rgb(250, 46, 46),black)
 }
 
 .MP {
-    @include circular-progress(22,"22%",rgb(250, 46, 46),#343a40)
+    @include circular-progress(22,"22%",rgb(250, 46, 46),black)
 }
