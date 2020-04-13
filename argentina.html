@@ -6,23 +6,1066 @@
         <title>Ivan's Webpage</title>
         <link rel="stylesheet" href="bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylecircularprog.css">
+        <style>
+             body {
+                background: rgb(43, 37, 37);
+            }
+    
+        </style>
     </head>
     <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="Messi4.jpg" alt="Messi logo" width="60px" height="50px"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
+    <div class="contenedor">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#" style = "font-size: 18px;"><img src="Messi4.jpg" alt="Messi logo" width="60px" height="50px">Messi Stats</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</a>
+                </li>
+            </div>
+        </nav>
+        <div class="contenedor"><img  src="messiarg5.jpg.jfif" alt=""  width="33.33%" height="auto"><img  src="messiarg5.jpg.jfif" alt=""  width="33.33%" height="auto"><img  src="messiarg5.jpg.jfif" alt=""  width="33.33%" height="auto"></div>
+        <div class="statscontainer">
+          <h2>TOTALS IN ARGENTINA</h2>
+          <hr id="linea3"></hr>
+          <div class="row">
+            <div class="col-sm" style="min-width: 13rem;">
+              <div class="card-header cheaderivan">GAMES</div>
+              <div class="card-body cbodyivan">
+              <p class="card-text ctextivan" style="margin-bottom: 35px;">51</p>
+              </div>
+            </div>
+            <div class="col-sm" style="min-width: 13rem;">
+              <div class="card-header cheaderivan">GOALS</div>
+              <div class="card-body cbodyivan">
+              <p class="card-text ctextivan" style="margin-bottom: 35px;">70</p>
+              </div>
+            </div>
+            <div class="col-sm" style="min-width: 13rem;">
+              <div class="card-header cheaderivan">COEFFICIENT</div>
+              <div class="card-body cbodyivan">
+              <p class="card-text ctextivan" style="margin-bottom: 35px;">1.373</p>
+              </div>
+            </div>
+            <div class="col-sm" style="min-width: 13rem;">
+              <div class="card-header cheaderivan">PENALTIES</div>
+              <div class="card-body cbodyivan">
+              <p class="card-text ctextivan" style="margin-bottom: 35px;">15</p>
+              </div>
+            </div>
+            <div class="col-sm" style="min-width: 13rem;">
+              <div class="card-header cheaderivan">FREE KICKS</div>
+              <div class="card-body cbodyivan">
+              <p class="card-text ctextivan" style="margin-bottom: 35px;">6</p>
+              </div>
+            </div>
+          </div>
         </div>
-      </nav>
-    </body>
+          <div id="divline"></div>
+          <div class="contenedor" style=" margin-top: 10px;"><div id="tabletitle">GAMES PLAYED WITH ARGENTINA</div>
+            <table  class="table table-hover table-dark" >
+              <thead>
+                <tr>
+                  <th scope="col" class="headertable">Index</th>
+                  <th scope="col" class="headertable">Date</th>
+                  <th scope="col" class="headertable">CMP</th>
+                  <th scope="col" class="headertable">Home team</th>
+                  <th scope="col" class="headertable">Result</th>
+                  <th scope="col" class="headertable">Away team</th>
+                  <th scope="col" class="headertable">Minute</th>
+                  <th scope="col" class="headertable">Score</th>
+                  <th scope="col" class="headertable">What</th>
+                  <th scope="col" class="headertable">How</th>
+                  <th scope="col" class="headertable">Jersey</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row" data-label="Index">70</td>
+                  <td data-label="Date">18-11-2019</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">2-2</td>
+                  <td data-label="Away team">Uruguay</td>
+                  <td data-label="Minute">90+2</td>
+                  <td data-label="Score">2-2</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Index">69</td>
+                  <td data-label="Date">15-11-2019</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Brazil</td>
+                  <td data-label="Result">0-1</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">13</td>
+                  <td data-label="Score">0-1</td>
+                  <td data-label="What">Rebound</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Index">68</td>
+                  <td data-label="Date">19-06-2019</td>
+                  <td data-label="CMP">Copa América 2019</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">1-1</td>
+                  <td data-label="Away team">Paraguay</td>
+                  <td data-label="Minute">57</td>
+                  <td data-label="Score">1-1</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Index">67</td>
+                  <td data-label="Date">08-06-2019</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">5-1</td>
+                  <td data-label="Away team">Nicaragua</td>
+                  <td data-label="Minute">38</td>
+                  <td data-label="Score">2-0</td>
+                  <td data-label="What">Rebound</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Index">66</td>
+                  <td data-label="Date">08-06-2019</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">5-1</td>
+                  <td data-label="Away team">Nicaragua</td>
+                  <td data-label="Minute">37</td>
+                  <td data-label="Score">1-0</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Index">65</td>
+                  <td data-label="Date">26-06-2018</td>
+                  <td data-label="CMP">World Cup 2018</td>
+                  <td data-label="Home Team">Nigeria</td>
+                  <td data-label="Result">1-2</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">14</td>
+                  <td data-label="Score">0-1</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Index">64</td>
+                  <td data-label="Date">29-05-2018</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-0</td>
+                  <td data-label="Away team">Haiti</td>
+                  <td data-label="Minute">66</td>
+                  <td data-label="Score">3-0</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Index">63</td>
+                  <td data-label="Date">29-05-2018</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-0</td>
+                  <td data-label="Away team">Haiti</td>
+                  <td data-label="Minute">58</td>
+                  <td data-label="Score">2-0</td>
+                  <td data-label="What">Rebound</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Index">62</td>
+                  <td data-label="Date">29-05-2018</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-0</td>
+                  <td data-label="Away team">Haiti</td>
+                  <td data-label="Minute">17</td>
+                  <td data-label="Score">1-0</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                <tr >
+                  <td scope="row" data-label="Index">61</td>
+                  <td data-label="Date">10-10-2017</td>
+                  <td data-label="CMP">World Cup 2018 Qualification</td>
+                  <td data-label="Home Team">Ecuador</td>
+                  <td data-label="Result">1-3</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">63</td>
+                  <td data-label="Score">1-3</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index">60</td>
+                  <td data-label="Date">10-10-2017</td>
+                  <td data-label="CMP">World Cup 2018 Qualification</td>
+                  <td data-label="Home Team">Ecuador</td>
+                  <td data-label="Result">1-3</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">20</td>
+                  <td data-label="Score">1-2</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index">59</td>
+                  <td data-label="Date">10-10-2017</td>
+                  <td data-label="CMP">World Cup 2018 Qualification</td>
+                  <td data-label="Home Team">Ecuador</td>
+                  <td data-label="Result">1-3</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">12</td>
+                  <td data-label="Score">1-1</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                  <td scope="row" data-label="Index">58</td>
+                  <td data-label="Date">23-03-2017</td>
+                  <td data-label="CMP">World Cup 2018 Qualification</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">1-0</td>
+                  <td data-label="Away team">Chile</td>
+                  <td data-label="Minute">16</td>
+                  <td data-label="Score">1-0</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index">57</td>
+                  <td data-label="Date">15-11-2016</td>
+                  <td data-label="CMP">World Cup 2018 Qualification</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">3-0</td>
+                  <td data-label="Away team">Colombia</td>
+                  <td data-label="Minute">10</td>
+                  <td data-label="Score">1-0</td>
+                  <td data-label="What">Free kick</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                  <td scope="row" data-label="Index">56</td>
+                  <td data-label="Date">01-09-2016</td>
+                  <td data-label="CMP">World Cup 2018 Qualification</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">1-0</td>
+                  <td data-label="Away team">Uruguay</td>
+                  <td data-label="Minute">43</td>
+                  <td data-label="Score">1-0</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">55</td>
+                  <td data-label="Date">21-06-2016</td>
+                  <td data-label="CMP">Copa América Centenario</td>
+                  <td data-label="Home Team">United States</td>
+                  <td data-label="Result">0-4</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">32</td>
+                  <td data-label="Score">0-2</td>
+                  <td data-label="What">Free kick</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">54</td>
+                  <td data-label="Date">18-06-2016</td>
+                  <td data-label="CMP">Copa América Centenario</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-1</td>
+                  <td data-label="Away team">Venezuela</td>
+                  <td data-label="Minute">60</td>
+                  <td data-label="Score">3-0</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">53</td>
+                  <td data-label="Date">10-06-2016</td>
+                  <td data-label="CMP">Copa América Centenario</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">5-0</td>
+                  <td data-label="Away team">Panama</td>
+                  <td data-label="Minute">87</td>
+                  <td data-label="Score">4-0</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">52</td>
+                  <td data-label="Date">10-06-2016</td>
+                  <td data-label="CMP">Copa América Centenario</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">5-0</td>
+                  <td data-label="Away team">Panama</td>
+                  <td data-label="Minute">78</td>
+                  <td data-label="Score">3-0</td>
+                  <td data-label="What">Free kick</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">51</td>
+                  <td data-label="Date">10-06-2016</td>
+                  <td data-label="CMP">Copa América Centenario</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">5-0</td>
+                  <td data-label="Away team">Panama</td>
+                  <td data-label="Minute">68</td>
+                  <td data-label="Score">2-0</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">50</td>
+                  <td data-label="Date">29-03-2016</td>
+                  <td data-label="CMP">World Cup 2018 Qualification</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">2-0</td>
+                  <td data-label="Away team">Bolivia</td>
+                  <td data-label="Minute">30</td>
+                  <td data-label="Score">2-0</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index">49</td>
+                  <td data-label="Date">08-09-2015</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">2-2</td>
+                  <td data-label="Away team">Mexico</td>
+                  <td data-label="Minute">88</td>
+                  <td data-label="Score">2-2</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index">48</td>
+                  <td data-label="Date">04-09-2015</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">7-0</td>
+                  <td data-label="Away team">Bolivia</td>
+                  <td data-label="Minute">74</td>
+                  <td data-label="Score">6-0</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">47</td>
+                  <td data-label="Date">04-09-2015</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">7-0</td>
+                  <td data-label="Away team">Bolivia</td>
+                  <td data-label="Minute">66</td>
+                  <td data-label="Score">5-0</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label=>Head</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">46</td>
+                  <td data-label="Date">13-06-2015</td>
+                  <td data-label="CMP">Copa América 2015</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">2-2</td>
+                  <td data-label="Away team">Paraguay</td>
+                  <td data-label="Minute">35</td>
+                  <td data-label="Score">2-0</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">45</td>
+                  <td data-label="Date">12-11-2014</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">2-1</td>
+                  <td data-label="Away team">Croatia</td>
+                  <td data-label="Minute">57</td>
+                  <td data-label="Score">2-1</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">44</td>
+                  <td data-label="Date">14-10-2014</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Hong Kong</td>
+                  <td data-label="Result">0-7</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">84</td>
+                  <td data-label="Score">0-7</td>
+                  <td data-label="What">Solo run</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">43</td>
+                  <td data-label="Date">14-10-2014</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Hong Kong</td>
+                  <td data-label="Result">0-7</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">66</td>
+                  <td data-label="Score">0-5</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">42</td>
+                  <td data-label="Date">25-06-2014</td>
+                  <td data-label="CMP">World Cup 2014</td>
+                  <td data-label="Home Team">Nigeria</td>
+                  <td data-label="Result">2-3</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">45+1</td>
+                  <td data-label="Score">1-2</td>
+                  <td data-label="What">Free kick</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">41</td>
+                  <td data-label="Date">25-06-2014</td>
+                  <td data-label="CMP">World Cup 2014</td>
+                  <td data-label="Home Team">Nigeria</td>
+                  <td data-label="Result">2-3</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">3</td>
+                  <td data-label="Score">0-1</td>
+                  <td data-label="What">Rebound</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">40</td>
+                  <td data-label="Date">21-06-2014</td>
+                  <td data-label="CMP">World Cup 2014</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">1-0</td>
+                  <td data-label="Away team">Iran</td>
+                  <td data-label="Minute">90+1</td>
+                  <td data-label="Score">1-0</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">39</td>
+                  <td data-label="Date">16-06-2014</td>
+                  <td data-label="CMP">World Cup 2014</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">2-1</td>
+                  <td data-label="Away team">Bosnia-Herzegovina</td>
+                  <td data-label="Minute">65</td>
+                  <td data-label="Score">2-0</td>
+                  <td data-label="What">Solo run</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">38</td>
+                  <td data-label="Date">07-06-2014</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">2-0</td>
+                  <td data-label="Away team">Slovenia</td>
+                  <td data-label="Minute">75</td>
+                  <td data-label="Score">2-0</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">37</td>
+                  <td data-label="Date">11-09-2013</td>
+                  <td data-label="CMP">World Cup 2014 Qualification</td>
+                  <td data-label="Home Team">Paraguay</td>
+                  <td data-label="Result">2-5</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">52</td>
+                  <td data-label="Score">1-4</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">36</td>
+                  <td data-label="Date">11-09-2013</td>
+                  <td data-label="CMP">World Cup 2014 Qualification</td>
+                  <td data-label="Home Team">Paraguay</td>
+                  <td data-label="Result">2-5</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">12</td>
+                  <td data-label="Score">0-1</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">35</td>
+                  <td data-label="Date">15-06-2013</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Guatemala</td>
+                  <td data-label="Result">0-4</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">49</td>
+                  <td data-label="Score">0-4</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">34</td>
+                  <td data-label="Date">15-06-2013</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Guatemala</td>
+                  <td data-label="Result">0-4</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">40</td>
+                  <td data-label="Score">0-3</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                <tr >
+                  <td scope="row" data-label="Index">33</td>
+                  <td data-label="Date">15-06-2013</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Guatemala</td>
+                  <td data-label="Result">0-4</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">15</td>
+                  <td data-label="Score">0-1</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+          
+                  <td scope="row" data-label="Index">32</td>
+                  <td data-label="Date">23-03-2013</td>
+                  <td data-label="CMP">World Cup 2014 Qualification</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">3-0</td>
+                  <td data-label="Away team">Venezuela</td>
+                  <td data-label="Minute">44</td>
+                  <td data-label="Score">2-0</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index">31</td>
+                  <td data-label="Date">17-10-2012</td>
+                  <td data-label="CMP">World Cup 2014 Qualification</td>
+                  <td data-label="Home Team">Chile</td>
+                  <td data-label="Result">1-2</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">28</td>
+                  <td data-label="Score">0-1</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index" >30</td>
+                  <td data-label="Date">13-10-2012</td>
+                  <td data-label="CMP">World Cup 2014 Qualification</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">3-0</td>
+                  <td data-label="Away team">Uruguay</td>
+                  <td data-label="Minute">80</td>
+                  <td data-label="Score">3-0</td>
+                  <td data-label="What">Free kick</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index">29</td>
+                  <td data-label="Date">13-10-2012</td>
+                  <td data-label="CMP">World Cup 2014 Qualification</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">3-0</td>
+                  <td data-label="Away team">Uruguay</td>
+                  <td data-label="Minute">65</td>
+                  <td data-label="Score">1-0</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">28</td>
+                  <td data-label="Date">08-09-2012</td>
+                  <td data-label="CMP">World Cup 2014 Qualification</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">3-1</td>
+                  <td data-label="Away team">Paraguay</td>
+                  <td data-label="Minute">63</td>
+                  <td data-label="Score">3-1</td>
+                  <td data-label="What">Free kick</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">27</td>
+                  <td data-label="Date">15-08-2012</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Germany</td>
+                  <td data-label="Result">1-3</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">52</td>
+                  <td data-label="Score">0-2</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">26</td>
+                  <td data-label="Date">09-06-2012</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-3</td>
+                  <td data-label="Away team">Brazil</td>
+                  <td data-label="Minute">85</td>
+                  <td data-label="Score">4-3</td>
+                  <td data-label="What">Solo run</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">25</td>
+                  <td data-label="Date">09-06-2012</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-3</td>
+                  <td data-label="Away team">Brazil</td>
+                  <td data-label="Minute">35</td>
+                  <td data-label="Score">2-1</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
      
+                  <td scope="row" data-label="Index">24</td>
+                  <td data-label="Date">09-06-2012</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-3</td>
+                  <td data-label="Away team">Brazil</td>
+                  <td data-label="Minute">31</td>
+                  <td data-label="Score">1-1</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">23</td>
+                  <td data-label="Date">03-06-2012</td>
+                  <td data-label="CMP">World Cup 2014 Qualification</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-0</td>
+                  <td data-label="Away team">Ecuador</td>
+                  <td data-label="Minute">31</td>
+                  <td data-label="Score">3-0</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+   
+                  <td scope="row" data-label="Index">22</td>
+                  <td data-label="Date">29-02-2012</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Switzerland</td>
+                  <td data-label="Result">1-3</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">90+3</td>
+                  <td data-label="Score">1-3</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">21</td>
+                  <td data-label="Date">29-02-2012</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Switzerland</td>
+                  <td data-label="Result">1-3</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">88</td>
+                  <td data-label="Score">1-2</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+      
+                  <td scope="row" data-label="Index">20</td>
+                  <td data-label="Date">29-02-2012</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Result">Switzerland</td>
+                  <td data-label="Result">1-3</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">20</td>
+                  <td data-label="Score">0-1</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">19</td>
+                  <td data-label="Date">15-11-2011</td>
+                  <td data-label="CMP">World Cup 2014 Qualification</td>
+                  <td data-label="Home Team">Colombia</td>
+                  <td data-label="Result">1-2</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">60</td>
+                  <td data-label="Score">1-1</td>
+                  <td data-label="What">Rebound</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">18</td>
+                  <td data-label="Date">08-10-2011</td>
+                  <td data-label="CMP">World Cup 2014 Qualification</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-1</td>
+                  <td data-label="Away team">Chile</td>
+                  <td data-label="Minute">26</td>
+                  <td data-label="Score">2-0</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">17</td>
+                  <td data-label="Date">20-06-2011</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-0</td>
+                  <td data-label="Away team">Albania</td>
+                  <td data-label="Minute">42</td>
+                  <td data-label="Score">2-0</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">16</td>
+                  <td data-label="Date">09-02-2011</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">2-1</td>
+                  <td data-label="Away team">Portugal</td>
+                  <td data-label="Minute">90</td>
+                  <td data-label="Score">2-1</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">15</td>
+                  <td data-label="Date">17-11-2010</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">1-0</td>
+                  <td data-label="Away team">Brazil</td>
+                  <td data-label="Minute">90+2</td>
+                  <td data-label="Score">1-0</td>
+                  <td data-label="What">Solo run</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row"  data-label="Index">14</td>
+                  <td data-label="Date">07-09-2010</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-1</td>
+                  <td data-label="Away team">Spain</td>
+                  <td data-label="Minute">10</td>
+                  <td data-label="Score">1-0</td>
+                  <td data-label="What">Field goal</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">13</td>
+                  <td data-label="Date">14-11-2009</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Spain</td>
+                  <td data-label="Result">2-1</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">61</td>
+                  <td data-label="Score">1-1</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+
+                  <td scope="row" data-label="Index">12</td>
+                  <td data-label="Date">28-03-2009</td>
+                  <td data-label="CMP">World Cup 2010 Qualification</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-0</td>
+                  <td data-label="Away team">Venezuela</td>
+                  <td data-label="Minute">26</td>
+                  <td data-label="Score">1-0</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">10</td>
+                  
+                </tr>
+          
+                  <td scope="row" data-label="Index">11</td>
+                  <td data-label="Date">11-02-2009</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">France</td>
+                  <td data-label="Result">0-2</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">83</td>
+                  <td data-label="Score">0-2</td>
+                  <td data-label="What">Solo run</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">18</td>
+                  
+                </tr>
+               
+                  <td scope="row" data-label="Index">10</td>
+                  <td data-label="Date">11-10-2008</td>
+                  <td data-label="CMP">World Cup 2010 Qualification</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">2-1</td>
+                  <td data-label="Away team">Uruguay</td>
+                  <td data-label="Minute">6</td>
+                  <td data-label="Score">1-0</td>
+                  <td data-label="What">-</td>
+                  <td data-label=>Head</td>
+                  <td data-label="Jersey">18</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index">9</td>
+                  <td data-label="Date">05-06-2008</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Mexico</td>
+                  <td data-label="Result">1-4</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">18</td>
+                  <td data-label="Score">0-2</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">18</td>  
+                </tr>
+                
+                  <td scope="row" data-label="Index">8</td>
+                  <td data-label="Date">21-11-2007</td>
+                  <td data-label="CMP">World Cup 2010 Qualification</td>
+                  <td data-label="Home Team">Colombia</td>
+                  <td data-label="Result">2-1</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">36</td>
+                  <td data-label="Score">0-1</td>
+                  <td data-label="What">Solo run</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">18</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index">7</td>
+                  <td data-label="Date">17-10-2007</td>
+                  <td data-label="CMP">World Cup 2010 Qualification</td>
+                  <td data-label="Home Team">Venezuela</td>
+                  <td data-label="Result">0-2</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">43</td>
+                  <td data-label="Score">0-2</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">18</td>
+                  
+                </tr>
+          
+                  <td scope="row" data-label="Index">6</td>
+                  <td data-label="Date">12-07-2007</td>
+                  <td data-label="CMP">Copa América 2007</td>
+                  <td data-label="Home Team">Mexico</td>
+                  <td data-label="Result">0-3</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">61</td>
+                  <td data-label="Score">0-2</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">18</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index">5</td>
+                  <td data-label="Date">09-07-2007</td>
+                  <td data-label="CMP">Copa América 2007</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-0</td>
+                  <td data-label="Away team">Peru</td>
+                  <td data-label="Minute">61</td>
+                  <td data-label="Score">2-0</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">18</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index">4</td>
+                  <td data-label="Date">05-06-2007</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-3</td>
+                  <td data-label="Away team">Algeria</td>
+                  <td data-label="Minute">73</td>
+                  <td data-label="Score">4-2</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">18</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index">3</td>
+                  <td data-label="Date">05-06-2007</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">4-3</td>
+                  <td data-label="Away team">Algeria</td>
+                  <td data-label="Minute">54</td>
+                  <td data-label="Score">2-2</td>
+                  <td data-label="What">Penalty</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">18</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index">2</td>
+                  <td data-label="Date">16-06-2006</td>
+                  <td data-label="CMP">World Cup 2006</td>
+                  <td data-label="Home Team">Argentina</td>
+                  <td data-label="Result">6-0</td>
+                  <td data-label="Away team">Serbia and Montenegro</td>
+                  <td data-label="Minute">88</td>
+                  <td data-label="Score">6-0</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">19</td>
+                  
+                </tr>
+                
+                  <td scope="row" data-label="Index">1</td>
+                  <td data-label="Date">01-03-2006</td>
+                  <td data-label="CMP">International friendly</td>
+                  <td data-label="Home Team">Croatia</td>
+                  <td data-label="Result">3-2</td>
+                  <td data-label="Away team">Argentina</td>
+                  <td data-label="Minute">6</td>
+                  <td data-label="Score">1-2</td>
+                  <td data-label="What">-</td>
+                  <td data-label="How">Left foot</td>
+                  <td data-label="Jersey">19</td>
+                  
+                </tr>
+              </tbody>
+            </table>
+          </div>    
+    </div>  
+    </body>    
 </html>
 
 

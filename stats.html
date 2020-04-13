@@ -6,7 +6,7 @@
         <title>Ivan's Webpage</title>
         <link rel="stylesheet" href="bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="stylecp2.css">
+        <link rel="stylesheet" href="stylecircularprog.css">
         <style>
              body {
                 background: rgb(43, 37, 37);
@@ -15,6 +15,7 @@
         </style>
     </head>
     <body>
+    <div class="contenedor">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#" style = "font-size: 18px;"><img src="Messi4.jpg" alt="Messi logo" width="60px" height="50px">Messi Stats</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,46 +24,45 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Back<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
             </div>
         </nav>
         <div id="Fondostats">
-            <img class = "container:hover" id="adidasfondo" src="adidassf.png" alt="" >
-            <hr style="margin-bottom: 40px; margin-top: -20px; background-color: black;"></hr>
+            <img  id="adidasfondo" src="adidassf.png" alt="" >
+            <hr id="lineblack"></hr>
             <h1 id="messifondo">Messi Stats</h1>
-            
         </div>
         <div class= "flecha-down"></div>
-        <div class = "container">
+        <div class = "statscontainer">
             <h2>FC BARCELONA 2019-2020</h2>
             <hr id ="linea1"></hr> 
             <div class = "card-deck" id= "grupo1">
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;">
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;">
                     <div class="card-header cheaderivan">GAMES</div>
                     <div class="card-body cbodyivan">
                     <p class="card-text ctextivan">31</p>
                     </div>
                 </div>
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;" >
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;" >
                     <div class="card-header cheaderivan">GOALS</div>
                     <div class="card-body cbodyivan">
                     <p class="card-text ctextivan">24</p>
                     </div>
                 </div>  
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;"  >
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;"  >
                     <div class="card-header cheaderivan">ASSISTS</div>
                     <div class="card-body cbodyivan">
                     <p class="card-text ctextivan">16</p>
                     </div>
                 </div>  
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;"  >
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;"  >
                     <div class="card-header cheaderivan">HATTRICK</div>
                     <div class="card-body cbodyivan">
                     <p class="card-text ctextivan">3</p>
                     </div>
                 </div>
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;"  >
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;"  >
                     <div class="card-header cheaderivan">PENALTIES</div>
                     <div class="card-body cbodyivan">
                     <p class="card-text ctextivan">3</p>
@@ -71,35 +71,35 @@
             </div> 
         </div>
 
-        <div class = "container">
+        <div class = "statscontainer">
             <h2>REMARKABLE</h2>
             <hr id="linea2"></hr> 
             <div class = "card-deck" id= "grupo2">
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;">
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;">
                     <div class="card-header cheaderivan">LEFT FOOTED GOALS</div>
                     <div class="card-body cbodyivan">
                         <div class="circular-progress LFG"></div>
                     </div>
                 </div>
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;" >
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;" >
                     <div class="card-header cheaderivan">RIGHT FOOTED GOALS</div>
                     <div class="card-body cbodyivan">
                         <div class="circular-progress RFG"></div>
                     </div>
                 </div>  
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;"  >
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;"  >
                     <div class="card-header cheaderivan">OPENING GOALS</div>
                     <div class="card-body cbodyivan">
                     <p class="card-text ctextivan">171</p>
                     </div>
                 </div>  
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;"  >
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;"  >
                     <div class="card-header cheaderivan">MISSED PENALTIES</div>
                     <div class="card-body cbodyivan">
                         <div class="circular-progress MP"></div>
                     </div>
                 </div>
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;"  >
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;"  >
                     <div class="card-header cheaderivan">CAMP NOU GOALS</div>
                     <div class="card-body cbodyivan">
                     <p class="card-text ctextivan">371</p>
@@ -108,35 +108,35 @@
             </div> 
         </div>
 
-        <div class = "container">
+        <div class = "statscontainer">
             <h2>TOTALS</h2>
             <hr id="linea3"></hr>
             <div class = "card-deck" id= "grupo3">
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;">
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;">
                     <div class="card-header cheaderivan">GAMES</div>
                     <div class="card-body cbodyivan">
                     <p class="card-text ctextivan">856</p>
                     </div>
                 </div>
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;" >
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;" >
                     <div class="card-header cheaderivan">GOALS</div>
                     <div class="card-body cbodyivan">
                     <p class="card-text ctextivan">697</p>
                     </div>
                 </div>  
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;"  >
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;"  >
                     <div class="card-header cheaderivan">ASSISTS</div>
                     <div class="card-body cbodyivan">
                     <p class="card-text ctextivan">289</p>
                     </div>
                 </div>  
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;"  >
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;"  >
                     <div class="card-header cheaderivan">HATTRICKS</div>
                     <div class="card-body cbodyivan">
                     <p class="card-text ctextivan">54</p>
                     </div>
                 </div>
-                <div class="card cstatsivan text-white bg-dark mb-6" style="max-width: 18rem;"  >
+                <div class="card cstatsivan text-white bg-dark mb-6" style="min-width: 13rem;"  >
                     <div class="card-header cheaderivan">PENALTIES</div>
                     <div class="card-body cbodyivan">
                     <p class="card-text ctextivan">88</p>
@@ -146,7 +146,9 @@
         </div>
      <div class="container">
          .
-     </div>    
+     </div>
+     
+    </div>    
     </body>
 </html>
 

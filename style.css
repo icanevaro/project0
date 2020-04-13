@@ -1,111 +1,248 @@
 /*INDEX.HTML*/
 
+/*Nav Bar*/
+
+    #messilogo {
+        width:60px;
+        height:50px;
+
+    }
+
+/*CONTAINER INDEX*/
+
+.contenedor {
+    width: 100%;
+    margin:0 auto;
+    overflow: hidden;
+    
+}
+/*--------------------------------------------------------------------------------------------*/
 /*1er TEXTO*/
+    #cont1   {
+    width: 100%;
+    height: auto;
+    hyphens: auto;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+
+    }
+/*Text Ajust*/
+
+.textindex {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+    width:95%;
+    margin-left: 20px;
+    
+}
 h1 {
     text-align: auto;
     margin-top: 50px;
-   
+    margin-left: 20px;
+    font-size: 20px;  
 }
+/*Img Adjust*/
 
-#textoinicio   {
-   width: 100%;
-   height: 450px;
-   margin-right: auto;
-   margin-left: 50px;
-   width: 1200px;
-}
+    #infanciapic {
+    float: right;
+    margin-left: 1em;   
+    margin-bottom: 1em; 
+    height: 200px;
+    }
+/*------------------------------------------------------------------------------------------------*/
 
-p {
-    text-align: left;
-    margin-top: 20px;
-    font-size: 20px;
-   
-}
-
-.fototexto1 {
-    border: 1px solid #dee2e6 !important;
-}
-
-/*CARD INDEX 2do texto*/
-.cardindex {
-    width: 50rem;
-    background-color:rgba(216, 61, 66, 0.116) ;
-    flex-wrap: wrap;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
-}
-
-.bodyindex {
-    flex-wrap: wrap;
-    display: flex;
-    margin: 15%;
-    width: 1200px;
-}
-
-.cardfoto {
-    position: relative;
+/* 2do texto*/
+#cont2 {
+    background: rgba(228, 78, 73, 0.226);
     width: 100%;
-    flex: 0 0 33.33%;
-    max-width: 100%;
-    
-}
-.textindex {
-    font-size: 24px;
+    clear: both;
+    overflow: hidden;
+    height: 1%;
+    hyphens: auto;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    }
+/*Text adjust*/
+
+.text2 {
+    width: 95%;
+    margin-left: 15%;
+    font-size: 18px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: lighter; 
+    margin-left: 10px; 
+    
+  
 }
+/*Img adjust*/
+
+    #messi6pic {
+    height: 450px;
+    float: left;
+    margin-right: 1em;   
+    margin-bottom: 1em; 
+    height: 300px;
+    }
+    
+/*----------------------------------------------------------------------------------------------*/
 
 /* 3er TEXTO*/
-.fototexto3 {
-    border: 1px solid #dee2e6 !important;
+.cont3   {
+    width: 100%;
+    height: auto;
+    hyphens: auto;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+ }
+
+/*Text adjust*/
+
+ .text3 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+    width:95%;
+    margin-left: 20px;
 }
 
+/*Img adjust*/
+
+#messi7pic {
+    float: right;
+    margin-left: 1em;   
+    margin-bottom: 1em; 
+    height: 300px;
+    }
+/*----------------------------------------------------------------------------------------------------------*/
 
 /*CENTRADO LOGO MESSI*/
-img.imgcenter{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border:none;
+
+.imgcenter{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border:none;
+        margin-top: 250px;
+        width: 250px;  
+    }
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+/*FOOTER*/
+#footer {
+    background-color: rgba(43, 37, 37, 0.815);
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
 }
 
 /*------------------------------------------------------------------------------------------------------------/*
 /*STATS.HTML*/
 
-/*FONDO PAGINA*/
+/*Page background header*/
 #Fondostats {
 
     background:rgb(216, 66, 61) ;
-    height: 30rem;
+    clear: both;
+    overflow: hidden;
+    height: 1%;
     width: 100%;
+    box-sizing: border-box;
     
 }
 
-/*FOTO FONDO ROJO*/
+/*Content header */
+@media (min-width:600px) {
 #adidasfondo {
-    width: 550px;
-    height: auto;
+    width: auto;
+    height: 400px;
     display: block;
     margin: auto;
-}
-
-
-/*TEXTO MESSI FONDO ROJO*/
+    }
 #messifondo {
     color: black;
     font-style: normal;
     text-align: center;
     margin-top: -20px;
+    margin-right: 16px;
+    }
+#lineblack {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: -40px;
+    background-color: black;
+}
+}
+
+@media (max-width:599px) {
+    #adidasfondo {
+        width: auto;
+        height: 200px;
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+    }
+    #messifondo {
+        color: black;
+        font-style: normal;
+        text-align: center;
+        margin-top: -10px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        }
+    #lineblack {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: -15px;
+        background-color: black;
+        }
+    }
+
+    .flecha-down {
+        margin:0 auto;
+        width:0px;
+        height:0px;
+        border-left:25px solid transparent; /* izquierda flecha */
+        border-right:25px solid transparent; /* derecha flecha */
+        border-top:25px solid rgb(216, 66, 61); /* base flecha y color*/
+        font-size:0px;
+        margin-top: -8px;
+}
+
+
+
+
+/*Main Container*/
+.statscontainer {
+    width: 96%;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    
 }
 
 /*CARDS*/
+
+#grupo1,#grupo2,#grupo3 {
+    display: flex;
+    flex-wrap: wrap;
+}
 .cstatsivan {
     height: 15rem;
     width: 30rem;
-
+    margin-bottom: 5px;
+    margin-top: 5px;
     
+  
 }
 
 .cheaderivan {
@@ -124,6 +261,7 @@ img.imgcenter{
     text-align: center;
     background-color: black;
     margin-top: 30px;
+    color: white;
     
 }
 
@@ -131,20 +269,22 @@ img.imgcenter{
 
     align-content: center;
     align-items: center;
-    background-color: black;
-    
+    background-color: black;    
     
 }
 
 
-/*TITULOS*/
+/*TITLES*/
 h2 {
-     color: whitesmoke;
-     padding: 50px;
-     text-align: center;
+    color: whitesmoke;
+    position: relative;
+    text-align: center;
+    margin:auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
  }
 
-/*LINEAS ROJAS*/
+/*RED LINES*/
 hr {  display: flex;
     flex-wrap: wrap;
      background-color: rgb(247, 97, 92);
@@ -154,14 +294,142 @@ hr {  display: flex;
  }
 
 
+/*------------------------------------------------------------------------------------*/
 
-.flecha-down {
-    margin:0 auto;
-    width:0px;
-    height:0px;
-    border-left:25px solid transparent; /* izquierda flecha */
-    border-right:25px solid transparent; /* derecha flecha */
-    border-top:25px solid rgb(216, 66, 61); /* base flecha y color*/
-    font-size:0px;
+
+/*BARCELONA*/
+
+/*FORM*/
+    option[Value="1"] {
+        background-color: rgba(211, 211, 211, 0.658);
+    }
+
+    option[value="3"] {
+        background-color:rgba(211, 211, 211, 0.658) ;
+    }
+
+
+/*Ordered List*/
+    ol > li {
+    color: red;
 }
 
+/*-------------------------------------------------------------------------------------*/
+
+/*ARGENTINA.HTML*/
+
+/*Grid columns*/
+    .row {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .col-sm {
+        margin-top: 20px;
+        background: black;
+        height: auto;
+        max-width: 25rem;
+        margin-right: 12px;
+        margin-left: 12px;
+        
+    }
+
+/*Games table*/
+    @media screen and (min-width:901px) {
+        .table-dark {
+            background:black;
+            width: 85%;
+            margin-left: 7%;
+            border-radius: 10px;
+        }
+}
+
+    @media screen and (max-width:900px) {
+        .table-dark {
+            background:rgb(43, 37, 37);
+            width: 85%;
+            margin-left: 7%;
+            border-radius: 10px;
+        }
+}
+
+    .headertable {
+        color: white ;
+        background: rgb(255, 73, 67);
+
+    }
+
+    #divline {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+        width: 85%;
+        height: 1px;
+        margin-top: 120px;
+        margin-left: 7%;
+    }
+
+    #tabletitle {
+        color: whitesmoke;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 7%;
+        margin-bottom: 10px;
+    }
+
+
+/*Game Table for small screens*/
+ @media screen and (max-width: 900px) {
+    table {
+      border: 0;
+      margin-top: -20px;
+      
+    }
+  
+    table caption {
+      font-size: 1.3em;  
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+      border-collapse: separate;
+       
+    }
+    
+    table tr {
+      border-bottom: 3px solid rgb(231, 97, 93);
+      display: block;
+      border-collapse: separate;
+      margin-top: 20px;
+      background: black;
+        
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+      border-collapse: separate;
+    }
+    
+    table td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+      color:rgb(231, 97, 93);
+      
+    }
+    
+    table td:last-child {
+      border-collapse: separate;
+      
+    }
+  }
